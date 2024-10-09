@@ -1,0 +1,660 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+li{
+    align-content:start;
+    justify-content: space-around;
+    margin:12px;
+    padding: 10px;
+}
+/*header{
+    margin-top: 200px;
+    color: aliceblue;
+    margin-left:200px;
+    font-size: 35px;
+font-family: "Roboto", system-ui;
+font-weight: 800;
+font-style: normal;
+}*/
+header p{
+    font-size: 16px;
+    font-weight:400;
+    margin-top: 12px;
+}
+.home:hover{
+    font-weight: bold;
+    cursor:pointer;
+    }
+.about:hover{
+font-weight: bold;
+cursor:pointer;
+    }
+.gallary:hover{
+font-weight: bold;
+cursor:pointer;
+    }
+.contact:hover{
+font-weight: bold;
+cursor:pointer;
+    }
+
+button:hover{
+    background: transparent;
+    color: aliceblue;
+    transition: all 0.5s ease-out;
+    cursor:pointer;
+}
+
+.about-me p{
+    font-size: 16px;
+    font-weight:400;
+    margin-top: 15px; 
+}
+
+.socials{
+    color:white;
+    display: flex;
+}
+.facebook:hover{
+    color:blue;}
+.instagram:hover{
+        color:blue;
+}
+.twitter:hover{
+    color:blue;}
+.socials i{
+    margin: 20px 20px 20px 0px;
+}
+
+.follow{
+background: white;
+position: fixed;
+}
+
+#facebook b{
+    font-size:15px;
+    font-family: "Roboto", system-ui;
+    margin-left:2px;
+}
+
+
+#instagram b{
+    font-size:15px;
+    font-family: "Roboto", system-ui;
+}
+#twitter b{
+    font-size:15px;
+    font-family: "Roboto", system-ui;
+}
+@media screen and (max-width:600px){
+    body{
+        background:#292828;
+        width: 100%;
+    }
+    .copyright{
+        font-size:16px;
+        color: aliceblue;
+        font-family: "Roboto", system-ui;
+        font-weight:400 ;
+        text-align: center;
+        background: #292828;
+    }
+    .content{
+        background: url("asset/asset\ 2.png");
+        background-size:cover;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+    .head{
+        color: aliceblue;
+        background:transparent;
+        font-size: 26px;
+        font-family: "Roboto", system-ui;
+        font-weight: 800;
+        padding-top:120px;
+        padding-left:30px;
+        padding-right:40px;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+    }
+    .about-me img{
+        width:100%;
+        height:350px;}
+    button{
+        background:white;
+        border: none;
+        width: 300px;
+        font-size: 16px;
+        padding: 10px;
+        margin:20px;
+        border:2px white solid;
+    }
+    label{
+        color: aliceblue ;
+        font-size: 16px;
+        font-family:  "Roboto", system-ui;
+        margin-top: 20px;
+       }
+    .hero{
+        display: none;
+    }
+    
+   
+    main{
+        width:100%;
+        display: grid;
+        padding-top:10px;
+        background: #292828;
+        grid-template-columns:1fr;
+    }
+
+    .about-me p{
+        font-size: 16px;
+        font-weight:400;
+        text-align:left;
+    }
+    footer{
+        background: #292828;
+        margin-bottom: 0px;
+        padding-left: 10px;
+    }
+    
+    .about-me:nth-of-type(2){
+    margin-top:10px;
+    color: aliceblue;
+    font-size:20px;
+    font-family: "Roboto", system-ui;
+    font-weight: 800;
+    font-style: normal;
+    margin-right: 30px;
+    margin-left: 50px;
+    }
+    .photo{
+        display: grid;
+        grid-template-columns:1fr;
+        
+    }
+    
+    .photo img{
+        height:270px;
+        padding:10px 40px 10px 40px;
+        width: 300px;
+        border: 1px white solid;
+    }
+    .infor{
+        display: grid;
+        grid-template-columns:1fr;
+        background: #292828;
+        margin: 10px;
+    }
+    .items h1{
+        margin-top:10px;
+        color: aliceblue;
+        font-size: 20px;
+    font-family: "Roboto", system-ui;
+    font-weight:600;
+    font-style: normal;
+    }
+    input{
+        background: transparent;
+        width: 100%;
+        height: 40px;
+        border: 1px white solid;
+        margin-top: 12px;
+        
+    }
+    #massage{
+        height: 250px;
+    }
+    .infor button{
+        width:300px;
+        justify-content:center;
+        margin-top: 10px;
+        align-content:center;
+        margin-left: 50px;
+    }
+    .name{
+        color: aliceblue;
+        margin-top: 55px;
+        margin-right: 5px;
+        font-size:16px;
+    }
+    h2{
+        color: aliceblue;
+        margin-top:13px;
+        font-size:16px;
+        display: none;
+    }
+    footer{
+        background: #292828;
+        width:100%; 
+    
+    }
+    #facebook{
+        position: fixed;
+        padding:8px;
+        background:white;
+        width:150px;
+        top: 40%;
+        transform:translateX(125px);
+        right:0;
+        margin-bottom: 2px;
+        transition: all 0.5s ease-in-out;
+    } 
+    .bar{
+        background: white;
+        width:25px;
+        padding:4px;
+        position:fixed;
+        top:0;
+        right: 0;
+        margin: 20px;
+    }
+    
+    #facebook:hover{
+        width: 220px;
+        cursor: pointer;
+    }
+    #instagram:hover{
+        width: 220px;
+        cursor: pointer;
+    }
+    #twitter:hover{
+        width: 220px;
+        cursor: pointer;
+    }
+    #instagram{
+        position: fixed;
+        padding:8px;
+        background:white;
+        margin-bottom:2px;
+        top: 46.6%;
+        width:150px;
+        transform:translateX(125px);
+        right:0;
+        transition: all 0.5s ease-in-out;
+    }
+    #twitter{
+        position: fixed;
+        padding:8px;
+        background:white;
+        width:150px;
+        transform:translateX(125px);
+        top:53.2%;
+        right:0;
+        transition: all 0.5s ease-in-out;
+    }
+}
+
+    @media  screen  and (min-width:600px){
+        body{
+            background:#292828;
+            width: 100%;
+        }
+        header{
+        margin-top: 200px;
+        color: aliceblue;
+         margin-left: 100px;
+        font-size: 35px;
+        font-family: "Roboto", system-ui;
+        font-weight: 800;
+        font-style: normal;
+        }
+        .content{
+            background-image: url("asset/asset\ 3.png");
+            height:100vh;
+            background-size:contain;
+            background-repeat: no-repeat;
+        }
+        footer{
+        background: #292828;
+        margin-bottom: 0px;
+    }
+        main{
+            width:100%;
+            display: grid;
+            padding-top:50px;
+            background: #292828;
+            grid-template-columns:repeat(2, 1fr);
+        }
+        .about-me img{
+            width:100%;
+            height:600px;}
+        .about-me:nth-of-type(2){
+            margin-top: 100px;
+            margin-bottom:200px;
+            color: aliceblue;
+            margin-right: 100px;
+            font-size: 25px;
+        font-family: "Roboto", system-ui;
+        font-weight: 800;
+        font-style: normal;
+        }
+        button{
+            background:white;
+            border: none;
+            width: 120px;
+            font-size: 16px;
+            padding: 10px;
+            margin-top:20px;
+            border:2px white solid;
+        }
+        #facebook{
+            position: fixed;
+            padding:8px;
+            background:white;
+            width:150px;
+            top: 40%;
+            transform:translateX(125px);
+            right:0;
+            margin-bottom: 2px;
+            transition: all 0.5s ease-in-out;
+        } 
+        #facebook:hover{
+            width: 250px;
+            cursor: pointer;
+        }
+        #instagram:hover{
+            width: 250px;
+            cursor: pointer;
+        }
+        #twitter:hover{
+            width: 250px;
+            cursor: pointer;
+        }
+        #instagram{
+            position: fixed;
+            padding:8px;
+            background:white;
+            margin-bottom:2px;
+            top: 46.6%;
+            width:150px;
+            transform:translateX(125px);
+            right:0;
+            transition: all 0.5s ease-in-out;
+        }
+        #twitter{
+            position: fixed;
+            padding:8px;
+            background:white;
+            width:150px;
+            transform:translateX(125px);
+            top:53.2%;
+            right:0;
+            transition: all 0.5s ease-in-out;
+        }
+        .photo{
+            display: grid;
+            grid-template-columns:repeat(3,1fr);
+            padding: 10px;
+            margin-top:0px;
+        
+        }
+        
+        .photo img{
+            height:200px;
+            width: 200px;
+            margin:5px;
+            border: 1px white solid;
+        }
+        .infor{
+            display: grid;
+            grid-template-columns:repeat(3,1fr);
+            margin:10px;
+            margin-top:0px;
+        }
+        .items h1{
+            margin-top:10px;
+            color: aliceblue;
+            font-size: 16px;
+        font-family: "Roboto", system-ui;
+        font-weight:600;
+        font-style: normal;
+        }
+        input{
+            background: transparent;
+            width: 100%;
+            height: 40px;
+            border: 1px white solid;
+            margin-top: 12px;
+        }
+        #massage{
+            height: 250px;
+        }
+        .name{
+            color: aliceblue;
+            margin-top: 55px;
+            margin-left: 240px;
+            margin-right: 5px;
+            font-size:16px;
+        }
+        h2{
+            color: aliceblue;
+            margin-top:13px;
+            margin-left: 240px;
+            margin-right: 5px;
+            font-size:16px;}
+            .copyright{
+                font-size:20px;
+                color: aliceblue;
+                font-family: "Roboto", system-ui;
+                font-weight:400 ;
+                text-align: center;
+                font-family: "Roboto", system-ui;
+                font-weight:400 ;
+            }.hero{
+                display: flex;
+                margin-left: 18%;
+                background:transparent;
+                align-content: start;
+                justify-content:right;
+                list-style-type: none;
+                margin-right: 50px;
+                font-size: 18px;
+                font-family: "Roboto", system-ui;
+              font-weight: 500;
+              font-style: normal;
+              color: aliceblue;
+
+            }
+            .infor button{
+                width:100%;
+                justify-content:right;
+                align-content:start;
+            }
+            label{
+                visibility:unset;
+                 }
+    
+        }
+        @media screen  and (min-width:1200px){
+            body{
+                background:#292828;
+                width: 100%;
+            }
+            
+            header{
+            margin-top: 200px;
+            color: aliceblue;
+             margin-left: 200px;
+            font-size: 35px;
+            font-family: "Roboto", system-ui;
+            font-weight: 800;
+            font-style: normal;
+            }
+            
+            .content{
+                background-image: url("asset/asset\ 3.png");
+                height:100vh;
+                background-size:cover;
+                background-repeat: no-repeat;
+            }
+            footer{
+            background: #292828;
+            margin-bottom: 0px;
+        }
+            main{
+                width:100%;
+                display: grid;
+                padding-top:100px;
+                background: #292828;
+                grid-template-columns:repeat(2, 1fr);
+            }
+            .about-me img{
+                width:100%;
+                height:800px;}
+            .about-me:nth-of-type(2){
+                margin-top: 250px;
+                margin-bottom:250px;
+                color: aliceblue;
+                margin-right: 200px;
+                font-size: 25px;
+            font-family: "Roboto", system-ui;
+            font-weight: 800;
+            font-style: normal;
+            }
+            button{
+                background:white;
+                border: none;
+                width: 120px;
+                font-size: 16px;
+                padding: 10px;
+                margin-top:20px;
+                border:2px white solid;
+            }
+            #facebook{
+                position: fixed;
+                padding:8px;
+                background:white;
+                width:150px;
+                top: 40%;
+                transform:translateX(125px);
+                right:0;
+                margin-bottom: 2px;
+                transition: all 0.5s ease-in-out;
+            } 
+            #facebook:hover{
+                width: 250px;
+                cursor: pointer;
+            }
+            #instagram:hover{
+                width: 250px;
+                cursor: pointer;
+            }
+            #twitter:hover{
+                width: 250px;
+                cursor: pointer;
+            }
+            #instagram{
+                position: fixed;
+                padding:8px;
+                background:white;
+                margin-bottom:2px;
+                top: 46.6%;
+                width:150px;
+                transform:translateX(125px);
+                right:0;
+                transition: all 0.5s ease-in-out;
+            }
+            #twitter{
+                position: fixed;
+                padding:8px;
+                background:white;
+                width:150px;
+                transform:translateX(125px);
+                top:53.2%;
+                right:0;
+                transition: all 0.5s ease-in-out;
+            }
+            .photo{
+                display: grid;
+                grid-template-columns:repeat(3,1fr);
+                margin: 110px;
+                margin-top:0px;
+            
+            }
+            
+            .photo img{
+                height:250px;
+                width: 350px;
+                border: 1px white solid;
+            }
+            .infor{
+                display: grid;
+                grid-template-columns:repeat(3,1fr);
+                margin: 110px;
+                margin-top:0px;
+            }
+            .items h1{
+                margin-top:10px;
+                color: aliceblue;
+                font-size: 20px;
+            font-family: "Roboto", system-ui;
+            font-weight:600;
+            font-style: normal;
+            }
+            input{
+                background: transparent;
+                width: 450px;
+                height: 40px;
+                border: 1px white solid;
+                margin-top: 12px;
+            }
+            #massage{
+                height: 250px;
+            }
+            .infor button{
+                width:200px;
+                justify-content:right;
+                margin-left: 55%;
+                align-content:start;
+            }
+            .name{
+                color: aliceblue;
+                margin-top: 55px;
+                margin-left: 240px;
+                margin-right: 5px;
+                font-size:16px;
+            }
+            h2{
+                color: aliceblue;
+                margin-top:13px;
+                margin-left: 240px;
+                margin-right: 5px;
+                font-size:16px;}
+                label{
+                 display:unset;
+                }
+                .copyright{
+                    font-size:20px;
+                    color: aliceblue;
+                    font-family: "Roboto", system-ui;
+                    font-weight:400 ;
+                    text-align: center;
+                    font-family: "Roboto", system-ui;
+                    font-weight:400 ;
+                }.hero{
+                    display: flex;
+                    margin-left: 60%;
+                    background:transparent;
+                    align-content: start;
+                    justify-content:right;
+                    list-style-type: none;
+                    margin-right: 60px;
+                    font-size: 18px;
+                    font-family: "Roboto", system-ui;
+                  font-weight: 500;
+                  font-style: normal;
+                  color: aliceblue;
+                }
+                label{
+               visibility:unset;
+                }
+        
+            }
